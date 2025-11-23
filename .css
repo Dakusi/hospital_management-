@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 100px 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    margin-top: auto;
+}
+
+#registerMessage, #appointmentMessage, #loginMessage {
+    font-weight: bold;
+}
